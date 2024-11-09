@@ -2,7 +2,7 @@ app_name = "proj_allot_app"
 app_title = "Project Allocation System"
 app_publisher = "vprojects"
 app_description = "System to allocate project"
-app_email = "projallotapp@example.com"
+app_email = "projectallotapp@example.com"
 app_license = "mit"
 
 # Apps

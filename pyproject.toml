@@ -1,7 +1,7 @@
 [project]
 name = "proj_allot_app"
 authors = [
-    { name = "vprojects", email = "projallotapp@example.com"}
+    { name = "vprojects", email = "projectallotapp@example.com"}
 ]
 description = "System to allocate project"
 requires-python = ">=3.10"
