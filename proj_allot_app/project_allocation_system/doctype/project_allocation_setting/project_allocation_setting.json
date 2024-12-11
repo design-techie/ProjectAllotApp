@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-10 14:37:03.085953",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "f_start_date",
+  "f_end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "f_start_date",
+   "fieldtype": "Date",
+   "label": "Financial Year Start Date"
+  },
+  {
+   "fieldname": "f_end_date",
+   "fieldtype": "Date",
+   "label": "Financial Year End Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-11-11 10:01:05.718984",
+ "modified_by": "Administrator",
+ "module": "Project Allocation System",
+ "name": "Project Allocation Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

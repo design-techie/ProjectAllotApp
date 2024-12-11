@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "autoname": "format:P-{MM}{YY}-{###}",
+ "creation": "2024-11-09 23:27:25.772075",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "proj_id",
+  "proj_title",
+  "proj_start",
+  "column_break_pobo",
+  "proj_end",
+  "proj_end_actual",
+  "section_break_smcx",
+  "proj_desc"
+ ],
+ "fields": [
+  {
+   "fieldname": "proj_id",
+   "fieldtype": "Data",
+   "label": "Project ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "proj_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title of the Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "proj_desc",
+   "fieldtype": "Text Editor",
+   "label": "Project Description"
+  },
+  {
+   "fieldname": "proj_start",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Project Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "proj_end",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Project End Date (Expected)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pobo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_smcx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proj_end_actual",
+   "fieldtype": "Date",
+   "label": "Project End Date (Actual)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-10 13:02:10.203253",
+ "modified_by": "Administrator",
+ "module": "Project Allocation System",
+ "name": "Project",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Project Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Developers",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "role": "QA",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

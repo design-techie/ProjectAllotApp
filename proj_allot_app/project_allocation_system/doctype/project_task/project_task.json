@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{proj_id}-T-{####}",
+ "creation": "2024-11-10 01:09:51.737730",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kli4",
+  "amended_from",
+  "task_id",
+  "task_title",
+  "proj_id",
+  "column_break_cpmm",
+  "task_sdate",
+  "task_edate",
+  "status",
+  "assign"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kli4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Task",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "task_id",
+   "fieldtype": "Data",
+   "label": "Task ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "task_title",
+   "fieldtype": "Data",
+   "label": "Task Title"
+  },
+  {
+   "fieldname": "proj_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "link_filters": "[[\"Project\",\"name\",\"is\",\"set\"]]",
+   "options": "Project"
+  },
+  {
+   "fieldname": "task_sdate",
+   "fieldtype": "Date",
+   "label": "Task Start Date"
+  },
+  {
+   "fieldname": "task_edate",
+   "fieldtype": "Date",
+   "label": "Task End Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nWIP\nUnder QA\nCompleted"
+  },
+  {
+   "fieldname": "assign",
+   "fieldtype": "Data",
+   "label": "Assignee"
+  },
+  {
+   "fieldname": "column_break_cpmm",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-10 14:49:42.906108",
+ "modified_by": "Administrator",
+ "module": "Project Allocation System",
+ "name": "Project Task",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Project Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
